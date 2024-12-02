@@ -4,6 +4,8 @@ These are needed for local dev, and users must install them as well.
 See https://docs.bazel.build/versions/main/skylark/deploying.html#dependencies
 """
 
+load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
+load("@bazel_tools//tools/build_defs/repo:utils.bzl", "maybe")
 load("//deno/private:deno_versions.bzl", "DENO_VERSIONS")
 load("//deno/private:toolchains_repo.bzl", "PLATFORMS", "toolchains_repo")
 
