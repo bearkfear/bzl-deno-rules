@@ -3,6 +3,7 @@
 # Use /scripts/mirror_release.sh to add a newer version below.
 # Versions should be ascending order so TOOL_VERSIONS.keys()[-1] is the latest version.
 DENO_VERSIONS = {
+    
     "1.7.4": {
         "aarch64-apple-darwin": "sha384-YmAjAv5ShzH92NrXvptRsWBRuUgHu/EueDkhjCf5zvav8UjILghCb6tIHZmgL+EO",
         "x86_64-apple-darwin": "sha384-1rBfS68cJ9WbE9LJxOO3vlzXFtotSZfoTLXeY3e2RJYjEJCULGZf4ciaNGc9wckx",
@@ -824,5 +825,17 @@ DENO_VERSIONS = {
         "x86_64-apple-darwin": "sha384-1R/DWed9DAuLZdI236t/RaDv6349C0KjAmFfq02w/BGOv6DFS+WCL2bJuUsUFrTe",
         "x86_64-pc-windows-msvc": "sha384-+0j2xqU5+4jjS+CYLAIg5ozKG/BqcYbGG0u3zM36ULt8/ieFsr6/FYNQx3UWq9jC",
         "x86_64-unknown-linux-gnu": "sha384-8tAoxn+agSbyzEdalfpPr5Th9HWrpr4878MywLEZFNZj9oiSPHeSiRcCafk+BAaY",
+    },
+    "2.1.2": {
+        "aarch64-apple-darwin": "sha384-5vw2ThQoYnMilNcNEUz+Q0YvS8w2gi4gu1d/9TGjC60+un39EFG0pJlquYoBRTNo",
+        "aarch64-unknown-linux-gnu": "sha384-Ua2thqVgpdOrD8vXp5qnCZy35at5pHiasSoUUD10Qn9TINWWajQ/axeUoLmRnVd9",
+        "denort-aarch64-apple-darwin": "sha384-67ZqbKoKbLSpomm+k83qkgELaeyfN8W1qcY6LfJ6fONl7R0Uz3Kq6ybwCE5niRGB",
+        "denort-aarch64-unknown-linux-gnu": "sha384-53fO2Zc61YNzZ4pjcu5t42QDmxz0c7oxsU4ZBE0907Ch6PXdz0h1DRX8t3EKPSJG",
+        "denort-x86_64-apple-darwin": "sha384-YpeW7H+18/DAEZit0vIF3xHE94yfNiVFWR59wT0F3ccBr7qI8V9amSjI4yxQj6vT",
+        "denort-x86_64-pc-windows-msvc": "sha384-q5tlfeOfjCHYSqUviM4AXg6qiyvzgxVcDWeOP23sAyLPNpiJpG8uJR/yqYM+eJAg",
+        "denort-x86_64-unknown-linux-gnu": "sha384-ltOnyAzBHIAlsCcaB70USH0hUSqwkDcz25RvgfZwfbfrV7IU3DrKOYYSEi2gaWzI",
+        "x86_64-apple-darwin": "sha384-so+6VvBsPp4+Ak5DhK8vwrs5LrAbPEUaYdVOscZD004vknbyHnGBFkfwRT8RqYVI",
+        "x86_64-pc-windows-msvc": "sha384-scSd5FM3nHciawWgk3sv6TaKW4Ms8PZr0ALP3Wi5Y4oTylhx/MF1+Cj7Lv7JsTTj",
+        "x86_64-unknown-linux-gnu": "sha384-GArVf09FwVPyli20ohkcAYmGfqSEswBmyiXmO+yxtiI2WwrLC5ozmvPJQ1gPcYLn",
     },
 }
